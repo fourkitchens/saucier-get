@@ -20,7 +20,7 @@ This module requires you to create either an HTTP or HTTPS agent, and pass that 
 ```javascript
 var https = require('https');
 var saucierGet = require('saucier-get')( new https.Agent({ keepAlive: true}) );
-var saucier = require('saucier')(saucierGet, saucierCache, templates, {});
+var saucier = require('saucier-core')(saucierGet, saucierCache, templates, {});
 ```
 
 An HTTPS agent is not required, but recommended. 

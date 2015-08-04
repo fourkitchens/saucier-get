@@ -1,6 +1,6 @@
 {
   "name": "saucier-get",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Saucier Get",
   "main": "index.js",
   "author": "Matthew Grill <matt@fourkitchens.com> (https://fourkitchens.com/team/matt-grill/)",
@@ -11,6 +11,10 @@
       "url": "https://fourkitchens.com/team/matt-grill/"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fourkitchens/saucier-get"
+  },
   "license": "MIT",
   "dependencies": {
     "debug": "^2.2.0",
